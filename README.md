@@ -1,3 +1,8 @@
+Online Project List
+========
+
+This is a forked repo of someone else's list of coding challenges. I've decided to go through and see which ones I can complete, including all code that I type to show my thought process.
+
 Mega Project List
 ========
 
