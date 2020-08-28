@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <title>
+        Javascript Pi
+    </title>
+</head>
+
+<body>
+    <form>
+        <label for="piBox">Enter a number:</label>
+        <input type="text" id="piBox" name="piBox"> </br> </br>
+        <input type="submit" value="Submit" onclick="piNumber()">
+    </form>
+
+    <script>
+        // var pi = Math.PI;
+        // console.log(pi);
+        function piNumber() {
+            var pi = Math.PI;
+            var numSubmit = (document.getElementById("piBox").value);
+            console.log(numSubmit);
+            var newNum=parseInt(numSubmit);
+            console.log(numSubmit);
+            piShort = pi.toFixed(numSubmit);
+            console.log(piShort);
+            document.write(piShort);
+        }
+    </script>
+</body>
+
+</html>
