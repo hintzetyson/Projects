@@ -20,11 +20,14 @@
             var pi = Math.PI;
             var numSubmit = (document.getElementById("piBox").value);
             console.log(numSubmit);
-            var newNum=parseInt(numSubmit);
-            console.log(numSubmit);
+            if (numSubmit >20) {
+                alert("Your number is too high, try something lower")
+                return
+            }
             piShort = pi.toFixed(numSubmit);
             console.log(piShort);
             document.write(piShort);
+
         }
     </script>
 </body>

@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>
+        Javascript E
+    </title>
+</head>
+
+<body>
+    <form>
+        <label for="eBox">Enter a number:</label>
+        <input type="text" id="eBox" name="eBox"> </br> </br>
+        <input type="submit" value="Submit" onclick="eNumber()">
+    </form>
+
+    <script>
+        // var e = Math.E;
+        // console.log(e);
+        function eNumber() {
+            var e = Math.E;
+            var numSubmit = (document.getElementById("eBox").value);
+            console.log(numSubmit);
+            if (numSubmit >20) {
+                alert("Your number is too high, try something lower")
+                return
+            }
+            eShort = e.toFixed(numSubmit);
+            console.log(eShort);
+            document.write(eShort);
+
+        }
+    </script>
+</body>
+
+</html>
